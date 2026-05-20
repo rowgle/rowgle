@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rowgle</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+ 
+  <style>
+    @import url("https://use.typekit.net/gov0pha.css");
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+    body {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 300;
+      background-color: #000000;
+      color: #ffffff;
+    }
+    .pixel-header {
+      font-family: 'uniwars', sans-serif;
+      font-weight: 600;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+    }
+    .square-btn {
+      border-radius: 16px;
+      transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+    .square-btn:hover {
+      transform: scale(1.05) translateY(-3px);
+    }
+  </style>
+</head>
+<body class="bg-black text-white overflow-x-hidden flex flex-col min-h-screen">
+
+  <!-- Navigation - Logo Only (Hides on Mobile Scroll) -->
+<header id="header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+  <div class="max-w-screen-2xl mx-auto px-8 py-6 flex items-center">
+    <a href="../index.html" id="logo-link">
+      <img src="https://res.cloudinary.com/dtbz0xaw6/image/upload/v1777924092/rowgle-social-006_fjsa5i.png"
+           alt="Rowgle" class="h-9 transition-opacity duration-300">
+    </a>
+  </div>
+
+</header>
+
+<!-- Hero Section -->
+<section class="relative min-h-screen flex items-center justify-center overflow-hidden">
+  <video id="hero-video" class="absolute inset-0 w-full h-full object-cover" autoplay muted loop playsinline>
+    <source src="https://res.cloudinary.com/dtbz0xaw6/video/upload/v1778694252/AdobeStock_441566282_5_th8sgm.mp4" type="video/mp4">
+  </video>
+  <div class="absolute inset-0 bg-black/25"></div>
+  
+  <div class="relative z-10 max-w-5xl mx-auto px-6 text-center pt-20">
+    <h1 class="pixel-header text-6xl md:text-7xl lg:text-8xl leading-none tracking-widest mb-8">
+      KILLER SITES
+    </h1>
+    <p class="max-w-2xl mx-auto text-xl md:text-2xl text-gray-300 mb-12 font-light">
+      Website development, not for the faint of heart.
+    </p>
+    <div class="flex flex-col sm:flex-row gap-6 justify-center">
+      <a href="contact.html"
+         class="square-btn px-10 py-5 border border-white text-lg font-medium tracking-widest hover:bg-white hover:text-black transition">
+        LETS ROW
+      </a>
+      <a href="index.html" class="square-btn px-10 py-5 border border-white/50 text-lg font-medium tracking-widest hover:border-white transition">
+        BACK TO TANK
+      </a>
+    </div>
+  </div>
+
+  <!-- Scroll Indicator -->
+  <div class="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center text-xs tracking-[3px] opacity-70 z-10">
+    SCROLL TO EXPLORE
+    <div class="w-px h-12 bg-white/30 mt-4"></div>
+  </div>
+</section>
+
+  <!-- What We Do Section -->
+  <section class="py-28 bg-black">
+    <div class="max-w-screen-2xl mx-auto px-8">
+      <h2 class="pixel-header text-5xl md:text-6xl tracking-widest text-center mb-16">
+        WHAT WE DO
+      </h2>
+      <div class="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
+        <div class="group">
+          <div class="text-4xl mb-6 text-white/70 group-hover:text-white transition">01</div>
+          <h3 class="text-2xl font-semibold mb-4">STRATEGIC DESIGN</h3>
+          <p class="text-gray-400 leading-relaxed">
+            We don’t build pretty websites. We engineer digital assets that look and perform like they belong in a command center.
+          </p>
+        </div>
+        <div class="group">
+          <div class="text-4xl mb-6 text-white/70 group-hover:text-white transition">02</div>
+          <h3 class="text-2xl font-semibold mb-4">DEFENSE-GRADE EXECUTION</h3>
+          <p class="text-gray-400 leading-relaxed">
+            Clean, fast, secure code. Obsessive attention to detail. Built to last in high-pressure environments.
+          </p>
+        </div>
+        <div class="group">
+          <div class="text-4xl mb-6 text-white/70 group-hover:text-white transition">03</div>
+          <h3 class="text-2xl font-semibold mb-4">NO COMPROMISE</h3>
+          <p class="text-gray-400 leading-relaxed">
+            No templates. No filler. No low-effort work. Only websites that make people stop scrolling and take notice.
+          </p>
+        </div>
+      </div>
+      <div class="text-center mt-20">
+        <a href="contact.html"
+           class="square-btn px-12 py-6 border border-white text-lg tracking-widest hover:bg-white hover:text-black transition">
+          START YOUR PROJECT
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- How We Build Section -->
+<section class="py-28 bg-black">
+  <div class="max-w-screen-2xl mx-auto px-8">
+    <h2 class="pixel-header text-5xl md:text-6xl tracking-widest text-center mb-16">
+      HOW WE BUILD
+    </h2>
+    <div class="max-w-4xl mx-auto space-y-20">
+     
+      <div class="grid md:grid-cols-12 gap-12 items-center">
+        <div class="md:col-span-5">
+          <div class="text-6xl font-bold text-white/20 mb-4">01</div>
+          <h3 class="text-3xl font-semibold mb-4">Discovery & Strategy</h3>
+          <p class="text-gray-400 text-lg">
+            We start with a deep dive into your goals, audience, and brand. No assumptions. We treat your website like a mission-critical asset — because it is.
+          </p>
+        </div>
+        <div class="md:col-span-7 bg-black/70 backdrop-blur-2xl border border-white/10 p-8 rounded-3xl">
+          <p class="italic text-gray-300">
+            “Most agencies guess. We ask the hard questions first.”
+          </p>
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-12 gap-12 items-center">
+        <div class="md:col-span-5">
+          <div class="text-6xl font-bold text-white/20 mb-4">02</div>
+          <h3 class="text-3xl font-semibold mb-4">Custom Design & Development</h3>
+          <p class="text-gray-400 text-lg">
+            Everything is hand-coded from scratch. No templates, no Squarespace, no bloat. We build fast, clean, and secure websites using modern HTML, CSS, and JavaScript.
+          </p>
+        </div>
+        <div class="md:col-span-7 bg-black/70 backdrop-blur-2xl border border-white/10 p-8 rounded-3xl">
+          <p class="text-gray-400">
+            • Fully responsive & mobile-first<br>
+            • Lightning-fast performance<br>
+            • Clean, well-documented code<br>
+            • SEO optimized from day one
+          </p>
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-12 gap-12 items-center">
+        <div class="md:col-span-5">
+          <div class="text-6xl font-bold text-white/20 mb-4">03</div>
+          <h3 class="text-3xl font-semibold mb-4">Managed Hosting & Delivery</h3>
+          <p class="text-gray-400 text-lg">
+            We manage your project end-to-end on Netlify — one of the most powerful and secure hosting platforms available. You get automatic deployments, version control, forms, analytics, and global CDN performance.
+          </p>
+        </div>
+        <div class="md:col-span-7 bg-black/70 backdrop-blur-2xl border border-white/10 p-8 rounded-3xl">
+          <p class="text-gray-400">
+            • Netlify hosting & deployment<br>
+            • Git-based version control<br>
+            • Custom domain setup<br>
+            • Ongoing maintenance & updates available
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Extended Video Section -->
+<section class="relative h-[120vh] w-full flex items-center justify-center overflow-hidden">
+
+  <!-- Fullscreen Video -->
+  <video class="absolute inset-0 w-full h-full object-cover" autoplay muted loop playsinline>
+    <source src="https://res.cloudinary.com/dtbz0xaw6/video/upload/v1778698023/AdobeStock_441566282_6_gir0be.mp4" type="video/mp4">
+  </video>
+
+  <!-- Top Gradient Fade -->
+  <div class="absolute inset-0 bg-gradient-to-b from-black via-black/25 to-transparent z-10"></div>
+
+  <!-- Centered Content -->
+  <div class="relative z-20 text-center px-6 max-w-3xl mx-auto">
+    <h2 class="pixel-header text-5xl md:text-6xl tracking-widest mb-6">
+      BUILT DIFFERENT
+    </h2>
+    <p class="text-xl text-gray-300">
+      Every pixel. Every line of code.<br>
+      Engineered with intention.
+    </p>
+  </div>
+
+  <!-- Transparent Footer -->
+  <footer class="absolute bottom-8 left-0 right-0 z-30">
+    <div class="max-w-screen-2xl mx-auto px-8">
+      <div class="flex justify-center mb-8">
+        <img src="https://res.cloudinary.com/dtbz0xaw6/image/upload/v1777921466/rowgle-r000_egzxxv.png" 
+             alt="Rowgle" class="h-9 opacity-90">
+      </div>
+
+      <div class="flex flex-col md:flex-row justify-center items-center gap-x-10 gap-y-4 text-sm tracking-widest text-gray-400">
+        <a href="disclaimer.html" class="hover:text-white transition">DATA DISCLAIMER</a>
+        <a href="privacy.html" class="hover:text-white transition">PRIVACY POLICY</a>
+        <a href="terms.html" class="hover:text-white transition">TERMS OF SERVICE</a>
+      </div>
+
+      <div class="text-center text-xs text-gray-500 mt-8 tracking-widest">
+        © 2026 ROWGLE • ALL RIGHTS RESERVED
+      </div>
+    </div>
+  </footer>
+</section>
+
+</body>
+<script>
+  const header = document.getElementById('header');
+  const logo = document.querySelector('#logo-link img');
+  let lastScroll = 0;
+
+  window.addEventListener('scroll', () => {
+    const currentScroll = window.scrollY;
+
+    // Only apply on mobile (under 768px)
+    if (window.innerWidth < 768) {
+      if (currentScroll > lastScroll && currentScroll > 100) {
+        // Scrolling down → hide logo
+        logo.style.opacity = '0';
+      } else {
+        // Scrolling up → show logo
+        logo.style.opacity = '1';
+      }
+    }
+
+    lastScroll = currentScroll;
+  });
+</script>
+</html>

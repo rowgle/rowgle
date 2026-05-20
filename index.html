@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Rowgle</title>
+<!-- Netlify redeploy fix - May 13 2026 -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  
+  <!-- Fonts -->
+  <style>
+    @import url("https://use.typekit.net/gov0pha.css");
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+    body {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 300;
+      background-color: #000000;
+      color: #ffffff;
+    }
+
+    .pixel-header {
+      font-family: 'uniwars', sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+    }
+
+    .square-btn {
+      border-radius: 16px;
+      transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+    .square-btn:hover {
+      transform: scale(1.05) translateY(-3px);
+    }
+  </style>
+</head>
+<body class="bg-black text-white overflow-x-hidden">
+
+  <!-- Fully Transparent Header - Logo + Social Icons -->
+  <header class="fixed top-0 left-0 right-0 z-50">
+    <div class="max-w-screen-2xl mx-auto px-8 py-6 flex items-center justify-between">
+      <!-- Logo -->
+      <a href="#" class="text-2xl font-bold tracking-tighter">
+        <img src="https://res.cloudinary.com/dtbz0xaw6/image/upload/v1777921466/rowgle-r000_egzxxv.png"
+             alt="Rowgle" class="h-10">
+      </a>
+      <!-- Social Icons -->
+      <div class="flex items-center gap-8">
+        <a href="https://x.com/rowgle" target="_blank" class="social-icon text-2xl text-white hover:text-transparent transition-all hover:scale-110">
+          <i class="fab fa-x-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/rowgle/" target="_blank" class="social-icon text-2xl text-white hover:text-transparent transition-all hover:scale-110">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <!-- Video Background -->
+    <video id="hero-video"
+           class="absolute inset-0 w-full h-full object-cover"
+           autoplay
+           muted
+           loop
+           playsinline
+           preload="auto">
+      <source src="https://res.cloudinary.com/dtbz0xaw6/video/upload/v1778687178/AdobeStock_441566282_2_ruap2l.mp4" type="video/mp4">
+    </video>
+    <!-- Dark Overlay -->
+    <div class="absolute inset-0 bg-black/25"></div>
+    <!-- Content -->
+    <div class="relative z-10 max-w-5xl mx-auto px-6 text-center">
+      <h1 class="pixel-header text-6xl md:text-7xl lg:text-8xl leading-none tracking-widest mb-8">
+        WELCOME TO ROWGLE
+      </h1>
+     
+      <p class="max-w-2xl mx-auto text-xl md:text-2xl text-gray-300 mb-12 font-light">
+        Fish tanks. Websites. Whatever we feel like doing that day. Design how you want, not how you are told.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-6 justify-center">
+        <a href="website.html"
+           class="square-btn px-10 py-5 border border-white text-lg font-medium tracking-widest hover:border-[#858e96] hover:text-[#858e96] transition">
+          ENTER SITE
+        </a>
+        <a href="fishtank02.html"
+           target="_blank"
+           class="square-btn px-10 py-5 border border-white text-lg font-medium tracking-widest hover:border-[#858e96] hover:text-[#858e96] transition">
+          FISH TANK 02
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <style>
+    .social-icon {
+      transition: all 0.4s ease;
+    }
+    .social-icon:hover {
+      background: linear-gradient(to right, #858e96, #858e96);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transform: scale(1.15);
+    }
+  </style>
+
+</body>
+</html>
