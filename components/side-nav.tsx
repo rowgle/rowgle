@@ -43,17 +43,17 @@ export function SideNav() {
   }
 
   return (
-    <nav className="fixed left-0 top-0 z-50 h-screen w-16 md:w-20 hidden md:flex flex-col justify-between border-r border-border/30 bg-background/80 backdrop-blur-sm py-6">
-      {/* Logo at top */}
-      <div className="flex justify-center">
-        <Image
-          src="https://res.cloudinary.com/dtbz0xaw6/image/upload/v1779217709/rowgle-r000_gxeioz.png"
-          alt="Rowgle Logo"
-          width={40}
-          height={40}
-          className="opacity-80 hover:opacity-100 transition-opacity"
-        />
-      </div>
+  <nav className="fixed left-0 top-0 z-50 h-screen w-16 md:w-20 flex flex-col justify-between border-r border-border/30 bg-background/80 backdrop-blur-sm py-6">
+    {/* Logo at top */}
+    <div className="flex justify-center">
+      <Image
+        src="https://res.cloudinary.com/dtbz0xaw6/image/upload/v1779217709/rowgle-r000_gxeioz.png"
+        alt="Rowgle Logo"
+        width={40}
+        height={40}
+        className="opacity-80 hover:opacity-100 transition-opacity"
+      />
+    </div>
 
       {/* Nav items centered */}
       <div className="flex flex-col gap-6 px-4">
