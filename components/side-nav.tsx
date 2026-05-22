@@ -43,7 +43,7 @@ export function SideNav() {
   }
 
   return (
-  <nav className="fixed left-0 top-0 z-50 h-screen w-16 md:w-20 flex flex-col justify-between border-r border-border/30 bg-background/80 backdrop-blur-sm py-6">
+  <nav className="fixed left-0 top-0 z-50 h-screen w-16 md:w-20 flex flex-col justify-between border-r border-border/30 bg-transparent md:bg-background/80 md:backdrop-blur-sm py-6">
     {/* Logo at top */}
     <div className="flex justify-center">
       <Image
