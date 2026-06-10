@@ -97,7 +97,7 @@ export function ColophonSection() {
           <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Creative</h4>
           <ul className="space-y-2">
             <li className="font-mono text-xs text-foreground/80">Graphic Design</li>
-            <li className="font-mono text-xs text-foreground/80">Motion Graphics</li>
+            <li className="font-mono text-xs text-foreground/80">Motion Design</li>
             <li className="font-mono text-xs text-foreground/80">Illustration</li>
           </ul>
         </div>
@@ -106,9 +106,9 @@ export function ColophonSection() {
         <div className="col-span-1">
           <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Digital</h4>
           <ul className="space-y-2">
-            <li className="font-mono text-xs text-foreground/80">E-Commerce</li>
-            <li className="font-mono text-xs text-foreground/80">Web Apps</li>
-            <li className="font-mono text-xs text-foreground/80">CMS Solutions</li>
+            <li className="font-mono text-xs text-foreground/80">Training</li>
+            <li className="font-mono text-xs text-foreground/80">Newsletters</li>
+            <li className="font-mono text-xs text-foreground/80">Presentations</li>
           </ul>
         </div>
 
@@ -116,7 +116,7 @@ export function ColophonSection() {
         <div className="col-span-1">
           <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Location</h4>
           <ul className="space-y-2">
-            <li className="font-mono text-xs text-foreground/80">Remote-First</li>
+            <li className="font-mono text-xs text-foreground/80">Remote</li>
             <li className="font-mono text-xs text-foreground/80">Designed in USA</li>
           </ul>
         </div>
@@ -138,7 +138,7 @@ export function ColophonSection() {
                 href="#"
                 className="font-mono text-xs text-foreground/80 hover:text-accent transition-colors duration-200"
               >
-                LinkedIn
+                Phone
               </a>
             </li>
           </ul>
@@ -146,10 +146,11 @@ export function ColophonSection() {
 
         {/* Availability */}
         <div className="col-span-1">
-          <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Availability</h4>
+          <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Companies</h4>
           <ul className="space-y-2">
-            <li className="font-mono text-xs text-foreground/80">Now Booking</li>
-            <li className="font-mono text-xs text-foreground/80">Q3 2026</li>
+            <li className="font-mono text-xs text-foreground/80">Rowgle</li>
+            <li className="font-mono text-xs text-foreground/80">Rest Tight</li>
+            <li className="font-mono text-xs text-foreground/80">Redacted Face</li>
           </ul>
         </div>
       </div>

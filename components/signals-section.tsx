@@ -10,28 +10,28 @@ gsap.registerPlugin(ScrollTrigger)
 const signals = [
   {
     date: "2026.06.10",
-    title: "Brand Refresh",
-    note: "Completed full rebrand for tech startup including logo, guidelines, and marketing collateral.",
+    title: "Brand Initiated",
+    note: "Completed full branding setup for partner company, Redacted Face.",
   },
   {
     date: "2026.05.28",
-    title: "Motion Design",
-    note: "New service offering: animated logos, micro-interactions, and video content for brands.",
+    title: "Partner Design",
+    note: "Partner company, Rest Tight, initiated marketing preperation for Texas security launch.",
   },
   {
     date: "2026.05.15",
-    title: "Design System",
-    note: "Delivered comprehensive design system with 200+ components for enterprise client.",
+    title: "Company Reach",
+    note: "Delivered 2026 Q1 company newsletter for large aviation client.",
   },
   {
     date: "2026.04.30",
-    title: "Team Growing",
-    note: "Welcoming new designers and developers to expand our creative capabilities.",
+    title: "Laying Groundwork",
+    note: "Full scope business development for parter company, Rest Tight. Providng Texas organizations protection details.",
   },
   {
-    date: "2026.04.12",
-    title: "Award Winner",
-    note: "Featured in Awwwards for outstanding web design and user experience.",
+    date: "2024.04.12",
+    title: "Defense Contracts",
+    note: "Supporting a large aviation government contract with premium design services.",
   },
 ]
 
