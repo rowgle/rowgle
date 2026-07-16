@@ -47,7 +47,7 @@ export function SideNav() {
     {/* Logo at top */}
     <div className="flex justify-center">
       <Image
-        src="https://res.cloudinary.com/dtbz0xaw6/image/upload/v1779217709/rowgle-r000_gxeioz.png"
+        src="/beaver.png"
         alt="Rowgle Logo"
         width={40}
         height={40}

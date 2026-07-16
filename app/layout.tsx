@@ -19,7 +19,7 @@ const bebasNeue = Bebas_Neue({ weight: "400", subsets: ["latin"], variable: "--f
 
 export const metadata: Metadata = {
   title: {
-    default: "Rowgle — Full-Service Creative & Digital Studio",
+    default: "Rowgle — Designer for Defense Companies",
     template: "%s | Rowgle",
   },
   description:
@@ -35,23 +35,24 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     siteName: "Rowgle",
-    title: "Rowgle — Full-Service Creative & Digital Studio",
+    title: "Rowgle — Designer for Defense Companies",
     description: "From brand identity to full-stack development, Rowgle crafts complete digital experiences.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rowgle — Full-Service Creative & Digital Studio",
+    title: "Rowgle — Designer for Defense Companies",
     description: "From brand identity to full-stack development, Rowgle crafts complete digital experiences.",
   },
   icons: {
-    icon: [
-      {
-        url: "https://res.cloudinary.com/dtbz0xaw6/image/upload/v1779217709/rowgle-r000_gxeioz.png",
-        type: "image/png",
-      },
-    ],
-    apple: "https://res.cloudinary.com/dtbz0xaw6/image/upload/v1779217709/rowgle-r000_gxeioz.png",
-  },
+  icon: [
+    {
+      url: "/rowgle-favicon.png",
+      type: "image/png",
+    },
+  ],
+  apple: "/rowgle-favicon.png",
+  shortcut: "/rowgle-favicon.png",
+},
 }
 
 export default function RootLayout({

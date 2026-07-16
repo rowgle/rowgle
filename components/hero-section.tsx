@@ -40,7 +40,7 @@ export function HeroSection() {
       {/* Left vertical labels */}
       <div className="absolute left-4 md:left-6 top-1/2 -translate-y-1/2">
         <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-muted-foreground -rotate-90 origin-left block whitespace-nowrap">
-          STUDIO
+          BEAVER ROW
         </span>
       </div>
 
@@ -48,7 +48,7 @@ export function HeroSection() {
       <div ref={contentRef} className="flex-1 w-full">
         <SplitFlapAudioProvider>
           <div className="relative">
-            <SplitFlapText text="REDACTED" speed={80} />
+            <SplitFlapText text="ROWGLE" speed={80} />
             <div className="mt-4">
               <SplitFlapMuteToggle />
             </div>
@@ -56,7 +56,7 @@ export function HeroSection() {
         </SplitFlapAudioProvider>
 
         <h2 className="font-[var(--font-bebas)] text-muted-foreground/60 text-[clamp(1rem,3vw,2rem)] mt-4 tracking-wide">
-          Rowgle: Built with Precision.
+          DESIGNED WITH PRECISION.  BUILT BY BEAVER.
         </h2>
 
         <p className="mt-12 max-w-md font-mono text-sm text-muted-foreground leading-relaxed">
@@ -83,7 +83,7 @@ export function HeroSection() {
       {/* Floating info tag */}
       <div className="absolute bottom-8 right-8 md:bottom-12 md:right-12">
         <div className="border border-border px-4 py-2 font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
-          Est. 2024 / Companies Designer
+          Est. 2023 / Designer for Defense
         </div>
       </div>
     </section>

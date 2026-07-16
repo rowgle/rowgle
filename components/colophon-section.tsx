@@ -149,8 +149,8 @@ export function ColophonSection() {
           <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Companies</h4>
           <ul className="space-y-2">
             <li className="font-mono text-xs text-foreground/80">Rowgle</li>
-            <li className="font-mono text-xs text-foreground/80">Rest Tight</li>
-            <li className="font-mono text-xs text-foreground/80">Redacted Face</li>
+            <li className="font-mono text-xs text-foreground/80">Harpy Industries</li>
+            <li className="font-mono text-xs text-foreground/80">Harpy Systems</li>
           </ul>
         </div>
       </div>
@@ -164,13 +164,13 @@ export function ColophonSection() {
           © 2026 Rowgle. All rights reserved.
         </p>
         <Image
-          src="https://res.cloudinary.com/dtbz0xaw6/image/upload/v1779217716/rowgle-barcode-01_zcjljf.png"
+          src="/beaver.png"
           alt="Rowgle"
           width={60}
           height={24}
           className="opacity-60 hover:opacity-100 transition-opacity"
         />
-        <p className="font-mono text-[10px] text-muted-foreground">Designed with purpose. Built with precision.</p>
+        <p className="font-mono text-[10px] text-muted-foreground">Designed with Precision. Built by Beaver.</p>
       </div>
     </section>
   )
