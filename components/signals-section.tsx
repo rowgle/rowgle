@@ -11,12 +11,12 @@ const signals = [
   {
     date: "2026.06.10",
     title: "Brand Initiated",
-    note: "Completed full branding setup for partner company, Redacted Face.",
+    note: "Completed full branding setup for partner company, Harpy Industries.",
   },
   {
     date: "2026.05.28",
     title: "Partner Design",
-    note: "Partner company, Rest Tight, initiated marketing preperation for Texas security launch.",
+    note: "Initiated marketing preperation for FSO consulting company re-brand and new site launch.",
   },
   {
     date: "2026.05.15",
@@ -26,7 +26,7 @@ const signals = [
   {
     date: "2026.04.30",
     title: "Laying Groundwork",
-    note: "Full scope business development for parter company, Rest Tight. Providng Texas organizations protection details.",
+    note: "Full scope business development for Harpy Industries. Providng Texas organizations protection details.",
   },
   {
     date: "2024.04.12",
