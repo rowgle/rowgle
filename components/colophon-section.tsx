@@ -4,6 +4,7 @@ import { useRef, useEffect } from "react"
 import Image from "next/image"
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
+import Link from "next/link"
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -82,44 +83,122 @@ export function ColophonSection() {
 
       {/* Multi-column layout */}
       <div ref={gridRef} className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 md:gap-12">
-        {/* Services */}
-        <div className="col-span-1">
-          <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Services</h4>
-          <ul className="space-y-2">
-            <li className="font-mono text-xs text-foreground/80">Branding</li>
-            <li className="font-mono text-xs text-foreground/80">Web Design</li>
-            <li className="font-mono text-xs text-foreground/80">Development</li>
-          </ul>
-        </div>
+        {/* Legal */}
+<div className="col-span-1">
+  <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">
+    Legal
+  </h4>
+  <ul className="space-y-2">
+    <li>
+      <Link
+        href="/legal#privacy"
+        className="font-mono text-xs text-foreground/80 hover:text-accent transition-colors duration-200"
+      >
+        Privacy Policy
+      </Link>
+    </li>
+    <li>
+      <Link
+        href="/legal#terms"
+        className="font-mono text-xs text-foreground/80 hover:text-accent transition-colors duration-200"
+      >
+        Terms of Service
+      </Link>
+    </li>
+    <li>
+      <Link
+        href="/legal#data"
+        className="font-mono text-xs text-foreground/80 hover:text-accent transition-colors duration-200"
+      >
+        Data Disclaimer
+      </Link>
+    </li>
+  </ul>
+</div>
 
         {/* Creative */}
-        <div className="col-span-1">
-          <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Creative</h4>
-          <ul className="space-y-2">
-            <li className="font-mono text-xs text-foreground/80">Graphic Design</li>
-            <li className="font-mono text-xs text-foreground/80">Motion Design</li>
-            <li className="font-mono text-xs text-foreground/80">Illustration</li>
-          </ul>
-        </div>
+<div className="col-span-1">
+  <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">
+    Creative
+  </h4>
+  <ul className="space-y-2">
+    <li>
+      <Link
+        href="/services#brand-identity"
+        className="font-mono text-xs text-foreground/80 hover:text-accent transition-colors duration-200"
+      >
+        Brand Identity
+      </Link>
+    </li>
+    <li>
+      <Link
+        href="/services#visual-systems"
+        className="font-mono text-xs text-foreground/80 hover:text-accent transition-colors duration-200"
+      >
+        Visual Systems
+      </Link>
+    </li>
+    <li>
+      <Link
+        href="/services#art-direction"
+        className="font-mono text-xs text-foreground/80 hover:text-accent transition-colors duration-200"
+      >
+        Art Direction
+      </Link>
+    </li>
+  </ul>
+</div>
 
-        {/* Digital */}
-        <div className="col-span-1">
-          <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Digital</h4>
-          <ul className="space-y-2">
-            <li className="font-mono text-xs text-foreground/80">Training</li>
-            <li className="font-mono text-xs text-foreground/80">Newsletters</li>
-            <li className="font-mono text-xs text-foreground/80">Presentations</li>
-          </ul>
-        </div>
+{/* Digital */}
+<div className="col-span-1">
+  <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">
+    Digital
+  </h4>
+  <ul className="space-y-2">
+    <li>
+      <Link
+        href="/services#web-experiences"
+        className="font-mono text-xs text-foreground/80 hover:text-accent transition-colors duration-200"
+      >
+        Web Experiences
+      </Link>
+    </li>
+    <li>
+      <Link
+        href="/services#digital-products"
+        className="font-mono text-xs text-foreground/80 hover:text-accent transition-colors duration-200"
+      >
+        Digital Products
+      </Link>
+    </li>
+    <li>
+      <Link
+        href="/services#content-systems"
+        className="font-mono text-xs text-foreground/80 hover:text-accent transition-colors duration-200"
+      >
+        Content Systems
+      </Link>
+    </li>
+  </ul>
+</div>
 
         {/* Location */}
-        <div className="col-span-1">
-          <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Location</h4>
-          <ul className="space-y-2">
-            <li className="font-mono text-xs text-foreground/80">Remote</li>
-            <li className="font-mono text-xs text-foreground/80">Designed in USA</li>
-          </ul>
-        </div>
+<div className="col-span-1">
+  <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">
+    Location
+  </h4>
+  <ul className="space-y-2">
+    <li className="font-mono text-xs text-foreground/80">Designed in USA</li>
+    <li>
+      <Link
+        href="/review"
+        className="font-mono text-xs text-foreground/80 hover:text-accent transition-colors duration-200"
+      >
+        Fort Worth, Texas
+      </Link>
+    </li>
+  </ul>
+</div>
 
         {/* Contact */}
         <div className="col-span-1">
@@ -134,25 +213,40 @@ export function ColophonSection() {
               </a>
             </li>
             <li>
-              <a
-                href="#"
-                className="font-mono text-xs text-foreground/80 hover:text-accent transition-colors duration-200"
-              >
-                Phone
-              </a>
-            </li>
+  <Link
+    href="/inquiry"
+    className="font-mono text-xs text-foreground/80 hover:text-accent transition-colors duration-200"
+  >
+    Inquiry
+  </Link>
+</li>
           </ul>
         </div>
 
-        {/* Availability */}
-        <div className="col-span-1">
-          <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Companies</h4>
-          <ul className="space-y-2">
-            <li className="font-mono text-xs text-foreground/80">Rowgle</li>
-            <li className="font-mono text-xs text-foreground/80">Harpy Industries</li>
-            <li className="font-mono text-xs text-foreground/80">Harpy Systems</li>
-          </ul>
-        </div>
+        {/* Companies */}
+<div className="col-span-1">
+  <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">
+    Companies
+  </h4>
+  <ul className="space-y-2">
+    <li>
+      <Link
+        href="/about"
+        className="font-mono text-xs text-foreground/80 hover:text-accent transition-colors duration-200"
+      >
+        Rowgle
+      </Link>
+    </li>
+    <li>
+      <Link
+        href="/harpy"
+        className="font-mono text-xs text-foreground/80 hover:text-accent transition-colors duration-200"
+      >
+        Harpy Industries
+      </Link>
+    </li>
+  </ul>
+</div>
       </div>
 
       {/* Bottom copyright */}
@@ -164,10 +258,10 @@ export function ColophonSection() {
           © 2026 Rowgle. All rights reserved.
         </p>
         <Image
-          src="/beaver.png"
+          src="/orangeharp.png"
           alt="Rowgle"
-          width={60}
-          height={24}
+          width={40}
+          height={40}
           className="opacity-60 hover:opacity-100 transition-opacity"
         />
         <p className="font-mono text-[10px] text-muted-foreground">Designed with Precision. Built by Beaver.</p>

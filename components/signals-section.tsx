@@ -10,28 +10,28 @@ gsap.registerPlugin(ScrollTrigger)
 const signals = [
   {
     date: "2026.06.10",
-    title: "Brand Initiated",
-    note: "Completed full branding setup for partner company, Harpy Industries.",
+    title: "Brand Launch Prep",
+    note: "Full-scope identity and design system development underway for Three Lanterns brand launch.",
   },
   {
     date: "2026.05.28",
-    title: "Partner Design",
-    note: "Initiated marketing preperation for FSO consulting company re-brand and new site launch.",
+    title: "Web Development",
+    note: "Initiated site architecture and visual direction for a Facility Security Officer consulting rebrand.",
   },
   {
     date: "2026.05.15",
-    title: "Company Reach",
-    note: "Delivered 2026 Q1 company newsletter for large aviation client.",
+    title: "Client Communications",
+    note: "Designed and delivered Q1 2026 company newsletter for a large aviation client.",
   },
   {
     date: "2026.04.30",
-    title: "Laying Groundwork",
-    note: "Full scope business development for Harpy Industries. Providng Texas organizations protection details.",
+    title: "Brand Development",
+    note: "Led complete brand foundation and visual system for Harpy Industries, supporting defense-sector positioning.",
   },
   {
     date: "2024.04.12",
-    title: "Defense Contracts",
-    note: "Supporting a large aviation government contract with premium design services.",
+    title: "Defense Support",
+    note: "Provided ongoing design and communications support for a major aviation government contract.",
   },
 ]
 
