@@ -18,7 +18,7 @@ type Signal = {
 
 const signals: Signal[] = [
   {
-    date: "2026.08.10",
+    date: "2026.11.10",
     title: "UNBUILT",
     note: "NO SITE. ONE BUILD. One registered U.S. business with no active marketing website gets a Dam Built package — on us. Not a raffle. First qualified applicant. SUBMISSIONS OPEN.",
     href: "/unbuilt",
@@ -34,15 +34,8 @@ const signals: Signal[] = [
     date: "2026.07.08",
     title: "MINE SERVICE",
     note: "Mine Service Inc. — mineserviceinc.com. Full site currently in production for their industrial and field operations.",
-    status: "IN PRODUCTION",
+    status: "LIVE",
     href: "https://mineserviceinc.com",
-  },
-  {
-    date: "2026.06.18",
-    title: "THE LIT ELF",
-    note: "The Lit Elf — thelitelf.com. Seasonal lighting company site in production. Launch staged for the active season.",
-    status: "IN PRODUCTION",
-    href: "https://thelitelf.com",
   },
   {
     date: "2026.05.30",

@@ -21,7 +21,7 @@ const clients = [
     number: "02",
     highlight: "MINE SERVICE",
     rest: " INC.",
-    href: "https://mineservice-ckczquewl-rowgle-projects.vercel.app",
+    href: "https://mineserviceinc.com",
     note: "GENERAL CONTRACTING · Texas",
     status: "IN PRODUCTION",
   },
@@ -35,27 +35,11 @@ const clients = [
   },
   {
     number: "04",
-    highlight: "THE",
-    rest: " LIT ELF",
-    href: "https://thelitelf.com",
-    note: "SEASONAL LIGHTING COMPANY · Colorado",
-    status: "IN PRODUCTION",
-  },
-  {
-    number: "05",
-    highlight: "BRIGADE",
-    rest: " FENCE",
-    href: "https://brigadefence.com",
-    note: "AFFORDABLE FENCE COMPANY · Texas",
-    status: "QUEUED",
-  },
-  {
-    number: "06",
     highlight: "REDACTED",
     rest: " FACE",
     href: "https://redactedface.com",
     note: "PHYSICAL SECURITY OPERATIONS · Texas",
-    status: "QUEUED",
+    status: "IN PRODUCTION",
   },
 ]
 
