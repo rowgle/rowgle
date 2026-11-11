@@ -11,8 +11,8 @@ gsap.registerPlugin(ScrollTrigger)
 const clients = [
   {
     number: "01",
-    highlight: "AIR CENTER HELICOPTERS",
-    rest: " INC.",
+    highlight: "AIR CENTER",
+    rest: " HELICOPTERS INC.",
     href: "https://flyaircenter.com",
     note: "GLOBAL AIRLIFT SUPPORT · Worldwide",
     status: "LIVE",
