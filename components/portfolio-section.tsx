@@ -11,8 +11,8 @@ gsap.registerPlugin(ScrollTrigger)
 const clients = [
   {
     number: "01",
-    highlight: "AIR CENTER",
-    rest: " HELICOPTERS",
+    highlight: "AIR CENTER HELICOPTERS",
+    rest: " INC.",
     href: "https://flyaircenter.com",
     note: "GLOBAL AIRLIFT SUPPORT · Worldwide",
     status: "LIVE",
@@ -23,7 +23,7 @@ const clients = [
     rest: " INC.",
     href: "https://mineserviceinc.com",
     note: "GENERAL CONTRACTING · Texas",
-    status: "IN PRODUCTION",
+    status: "LIVE",
   },
   {
     number: "03",
